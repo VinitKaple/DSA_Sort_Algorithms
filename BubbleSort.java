@@ -15,7 +15,7 @@ public class BubbleSort {
     }
 
     static void BS(int[] arr) {
-        boolean swap;
+        boolean swap; 
         for (int i = 0; i < arr.length; i++) {
             swap = false;
             for (int j = 1; j < arr.length - i; j++) {
